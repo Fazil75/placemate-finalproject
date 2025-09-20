@@ -48,7 +48,7 @@ function HomePage() {
           Welcome to Placemate
         </h1>
         <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
-          Your AI-powered exam preparation platform.
+          
         </p>
         <button
           style={{

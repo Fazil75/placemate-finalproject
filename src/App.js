@@ -6,7 +6,6 @@ import StaffRegisterPage from './StaffRegisterPage';
 import ForgotPasswordPage from './ForgotPasswordPage';
 import HomePage from './HomePage';
 import StudentDashboard from './StudentDashboard';
-import ResumeBuilder from './ResumeBuilder';
 import MockInterview from './MockInterview';
 import AptitudeQuiz from './AptitudeQuiz';
 import PlacementDashboard from "./PlacementDashboard";
@@ -25,6 +24,8 @@ import DepartmentRegisterPage from './DepartmentRegisterPage';
 import PlacementReadinessPage from './PlacementReadinessPage';
 import DepartmentNoticesPage from './DepartmentNoticesPage';
 import ManageStudentsPage from './ManageStudentsPage';  
+import ResumeGeneratePage from './ResumeGeneratePage';
+import ResumeResultPage from './ResumeResultPage';
 import './App.css';
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
           <Route path="/register-staff" element={<StaffRegisterPage />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
           <Route path="/student-dashboard" element={<StudentDashboard />} />
-          <Route path="/resume-builder" element={<ResumeBuilder />} />
+
           <Route path="/mock-interview" element={<MockInterview />} />
           <Route path="/aptitude-quiz" element={<AptitudeQuiz />} />
           <Route path="/placement-dashboard" element={<PlacementDashboard />} />
@@ -57,6 +58,8 @@ function App() {
           <Route path="/placement-readiness" element={<PlacementReadinessPage />} />
           <Route path="/department-notices" element={<DepartmentNoticesPage />} />
           <Route path="/manage-students" element={<ManageStudentsPage />} />
+          <Route path="/resume-generate" element={<ResumeGeneratePage />} />
+          <Route path="/resume-result" element={<ResumeResultPage />} />
 
           {/* Add dashboards as needed */}
         </Routes>

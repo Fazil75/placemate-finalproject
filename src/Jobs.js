@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Jobs() {
   const [jobs, setJobs] = useState([]);
   const [newJob, setNewJob] = useState({ title: "", company: "", criteria: "" });
-  const [externalJobs, setExternalJobs] = useState([]); // Jobs from API
+  const [externalJobs] = useState([]); // Jobs from API
 
   // ✅ Fetch jobs from external API (placeholder)
   useEffect(() => {

@@ -20,12 +20,10 @@ function StudentDashboard() {
         <p>{profile.email}</p>
       </header>
       <nav style={navStyle}>
-        <button style={navButton} onClick={() => navigate('/resume-builder')}>Resume Builder</button>
+        <button style={navButton} onClick={() => navigate('/resume-generate')}>Generate Resume</button>
         <button style={navButton} onClick={() => navigate('/mock-interview')}>Mock Interview</button>
         <button style={navButton} onClick={() => navigate('/aptitude-quiz')}>Aptitude & Quiz</button>
-       <button style={navButton} onClick={() => navigate('/career-guidance-dashboard')}>Career Guidance</button>
-         
-
+        <button style={navButton} onClick={() => navigate('/career-guidance-dashboard')}>Career Guidance</button>
       </nav>
       <section style={notifSection}>
         <h2>Notifications & Reminders</h2>
@@ -78,3 +76,5 @@ const notifSection = {
 };
 
 export default StudentDashboard;
+
+/* <Route path="/resume-builder" element={<ResumeBuilder />} /> */
